@@ -1,7 +1,4 @@
 
-*{
-  box-sizing:border-box;
-}
 
 body {
   margin:0px;
@@ -10,8 +7,8 @@ body {
 #wrapper {
 	display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-row: 1fr 1fr 1fr 1fr 1fr;
-    heigth:100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
 }
 
 /* Style the header */
@@ -88,9 +85,6 @@ body {
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media (max-width: 780px){
-  *{
-    box-sizing:border-box;
-  }
 
   body {
     margin:0px;
@@ -99,8 +93,8 @@ body {
   #wrapper {
       display:grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-row: 1fr 1fr 1fr 1fr 1fr;
-      heigth:100%;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      height:100%;
   }
 
   /* Style the header */
